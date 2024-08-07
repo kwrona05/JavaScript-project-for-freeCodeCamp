@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    padding-top: 200px;
+}
+.input {
+    display: flex;
+    align-items: center;
+}
+
