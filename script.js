@@ -39,10 +39,10 @@ const textInput = document.getElementById("text-input");
             } else if (inputText === "five|\_/|four") {
                 resultText.textContent = "five|\_/|four is not a palindrome";
             } else if (isPalindrome(inputText)) {
-                resultText.textContent = `${inputText} is a palindrome`
+                resultText.textContent = `${inputText} is a palindrome`;
             }
                 else {
-                resultText.textContent = `${inpuText} is not a palindrome`;
+                resultText.textContent = `${inputText} is not a palindrome`;
             }
         }
 
